@@ -1,6 +1,0 @@
-@cosmos-oddysey-backend_HostAddress = http://localhost:5299
-
-GET {{cosmos-oddysey-backend_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
