@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\cosmos-oddysey-backend.props" />
+</Project>
