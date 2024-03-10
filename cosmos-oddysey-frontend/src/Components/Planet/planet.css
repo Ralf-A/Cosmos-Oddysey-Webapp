@@ -1,0 +1,37 @@
+.planet-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  border-color: rgb(100, 145, 49);
+  box-shadow: 0 0 10px rgb(100, 145, 49);
+}
+
+
+/* Style the image */
+.planet-image {
+  width: auto;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Style the label */
+.planet-label {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+/* Add a hover effect */
+.planet-button:hover {
+  transform: scale(1.15);
+  
+}

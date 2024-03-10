@@ -1,0 +1,45 @@
+.route-finder-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+h1{
+    padding: 20px;
+}
+p{
+  font-size: xx-large;
+}
+
+.planet-container {
+    display: flex; /* Make the container a flex container */
+    flex-wrap: wrap; /* Allow the items to wrap to the next line */
+    justify-content: center; /* Center the items on the main axis (horizontally) */
+    align-items: center; /* Center the items on the cross axis (vertically) */
+    margin: 20px;
+  }
+
+.sort-flights-wrapper-hidden{
+  display: none;
+}
+
+
+.sort_button:hover {
+  background-color: rgb(89, 126, 50);
+}
+
+
+.sort_button {
+  min-width: 15%;
+  margin: 1%;
+  height: 5%;
+  background-color: rgb(145, 218, 63);
+  border-color: black;
+  border-width: 2px;
+  border-radius: 10px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+}

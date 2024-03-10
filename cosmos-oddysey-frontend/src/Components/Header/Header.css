@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6%;
+    z-index: 100;
+    background: rgb(7, 21, 65);
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+}
+
+.home-button {
+    max-width: 25vh;
+    border-radius: 10%;
+    justify-content: center; /* Center the items on the main axis (horizontally) */
+    align-items: center; /* Center the items on the cross axis (vertically) */
+}
+
+.home-button:hover{
+    background-color: #241986;
+}
+.home-icon {
+    margin-top: 2%;
+    max-width: 20%;
+}
+

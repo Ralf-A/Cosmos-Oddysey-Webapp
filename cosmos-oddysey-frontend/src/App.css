@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-image: url('https://images4.alphacoders.com/116/1167825.png');
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  color: black;
+  background-attachment: fixed;
+  margin-top: 2%;
+  min-height: 95.8vh;
+
+  display: flex;
+  flex-direction: column;
+}
+h2, h1{
+
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.reserve-button, .reserve-button-red, .search-button {
+  min-width: 35%;
+  margin: 2%;  
+  height: 5%;
+  background-color: rgb(100, 145, 49);
+  border-color: black;
+  border-width: 2px;
+  border-radius: 10px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(100, 145, 49);
+}
+.reserve-button-red{
+  background-color: rgb(145, 49, 49);
+}
+.reserve-button-red:hover{
+  background-color: rgb(216, 28, 28);
+}
+.search-button{
+  min-width: 20%;
+}
+.reserve-button:hover, .search-button:hover {
+  background-color: rgb(104, 165, 39);
+}
+
