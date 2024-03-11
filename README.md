@@ -1,4 +1,4 @@
-# Cosmos Odyssey - React Frontend
+# Cosmos Odyssey - using React Frontend, .NET Backend
 
 ## Introduction
 
