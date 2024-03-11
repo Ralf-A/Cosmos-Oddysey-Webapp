@@ -28,6 +28,11 @@ Welcome to the repository of **Cosmos Odyssey**, the web application that brings
 - **Step 1**: Run the command `dotnet run`.
 - **Step 2**: Alternatively, press start on `Startup.cs` in your IDE.
 
+# Achievements with this project
+- My first time using .NET and C#
+- First time using Docker to create an app with frontend, backend and database instances and doing DevOps practices
+- Getting more comfortable with React.js
+  
 # Undone work 
 - Tests for API - tested only using curl and postman and manual blackbox testing
 - Exception handling for API could be better 
