@@ -130,4 +130,4 @@ Docker/production build URL: `http://localhost:8080`
   "duration": 0,
   "price": 0,
   "isValid": 0
-}
+  }
