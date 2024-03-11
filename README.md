@@ -22,7 +22,8 @@ The active routes and prices are fetched from the following API endpoint:
 
 ## Version: 1.0
 
-Base URL: `http://localhost:8080`
+Testing build URL: `http://localhost:5299`
+Docker/production build URL: `http://localhost:8080`
 
 ### Flight API
 
@@ -51,10 +52,10 @@ Base URL: `http://localhost:8080`
   }
 
 #### GET /api/FlightFinder
-- **Description**: Find flights between two locations.
+- **Description**: Find flights between two planets.
 - **Parameters**:
-  - `startLoc` (string, query): Starting location.
-  - `endLoc` (string, query): Ending location.
+  - `startLoc` (string, query): Starting planet.
+  - `endLoc` (string, query): Ending planet.
 - **Responses**:
   - **200**: Success
 
@@ -78,4 +79,26 @@ Base URL: `http://localhost:8080`
     "flightID": "string",
     "isValid": 0
   }
+  
+### Travel API
 
+#### GET /api/Travel
+- **Description**: Retrieve details for a travel (consisting of one to many flights)
+- **Parameters**: None
+- **Responses**:
+- **200**: Success
+    
+#### POST /api/Travel
+- **Description**: Create a new travel (consisting of one to many flights)
+- **Parameters**: None
+- **Request Body**:
+  ```json
+  {
+  "travelID": "string",
+  "passengerFirstName": "string",
+  "passengerLastName": "string",
+  "distance": 0,
+  "duration": 0,
+  "price": 0,
+  "isValid": 0
+}
