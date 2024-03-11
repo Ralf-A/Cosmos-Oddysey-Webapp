@@ -29,6 +29,7 @@ Welcome to the repository of **Cosmos Odyssey**, the web application that brings
 ## Option 1: Using Docker (Recommended)
 - **Step 1**: Run `docker.compose.yml`.
 - **Step 2**: Open the application in Docker to see everything working in harmony!
+- **Step 3**: By default frontend application is running on port 80, backend on port 8080 and database on port 5432
 
 ## Option 2: Manual Setup
 ### For Frontend Application:
