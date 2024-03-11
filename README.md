@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the frontend repository of **Cosmos Odyssey**, the web application that brings you the best solar system travel deals. Navigate through various planets and find the most suitable routes at competitive prices. Make your reservation and embark on an interplanetary adventure!
+Welcome to the repository of **Cosmos Odyssey**, the web application that brings you the best solar system travel deals. Navigate through various planets and find the most suitable routes at competitive prices. Make your reservation and embark on an interplanetary adventure!
 
 ## Features
 
