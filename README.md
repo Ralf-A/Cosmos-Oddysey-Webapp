@@ -34,10 +34,10 @@ Welcome to the repository of **Cosmos Odyssey**, the web application that brings
 - Getting more comfortable with React.js
   
 # Undone work 
-- Tests for API - tested only using curl and postman and manual blackbox testing
+- Tests for API - tested only using postman and built-in swagger and manual blackbox testing
 - Exception handling for API could be better 
 - No request validation besides on frontend
-- Overall structure could be better
+- Overall structure could be a bit better
 
 # API Reference and Documentation
 
