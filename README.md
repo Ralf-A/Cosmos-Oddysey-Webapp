@@ -1,4 +1,4 @@
-# Cosmos Odyssey - using React Frontend, .NET Backend
+# Cosmos Odyssey - using React Frontend, .NET Backend, Dockerfiles to easily launch and manage application
 
 ## Introduction
 
@@ -28,7 +28,13 @@ Welcome to the repository of **Cosmos Odyssey**, the web application that brings
 - **Step 1**: Run the command `dotnet run`.
 - **Step 2**: Alternatively, press start on `Startup.cs` in your IDE.
 
-## API Reference
+# Undone work 
+- Tests for API - tested only using curl and postman and manual blackbox testing
+- Exception handling for API could be better 
+- No request validation besides on frontend
+- Overall structure could be better
+
+# API Reference and Documentation
 
 The active routes and prices are fetched from the following API endpoint:
 `https://cosmos-odyssey.azurewebsites.net/api/v1.0/TravelPrices`
