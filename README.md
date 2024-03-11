@@ -13,6 +13,21 @@ Welcome to the frontend repository of **Cosmos Odyssey**, the web application th
 - **Reservations**: Securely make a reservation with your name on your preferred route.
 - **Pricelist History**: Access up to the last 15 active pricelists.
 
+# Starting the Program
+
+## Option 1: Using Docker (Recommended)
+- **Step 1**: Run `docker.compose.yml`.
+- **Step 2**: Open the application in Docker to see everything working in harmony!
+
+## Option 2: Manual Setup
+### For Frontend Application:
+- **Step 1**: Install dependencies with `npm install`.
+- **Step 2**: Start the application with `npm run start`.
+
+### For Backend Application:
+- **Step 1**: Run the command `dotnet run`.
+- **Step 2**: Alternatively, press start on `Startup.cs` in your IDE.
+
 ## API Reference
 
 The active routes and prices are fetched from the following API endpoint:
