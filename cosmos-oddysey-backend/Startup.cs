@@ -38,8 +38,6 @@ using (var scope = app.Services.CreateScope())
     // Clear existing data
     ClearExistingData(dbContext);
 
-    // Apply migrations
-    dbContext.Database.Migrate();
 }
 
 // Method to clear existing data
