@@ -50,57 +50,32 @@ Base URL: `http://localhost:8080`
     "isValid": 0
   }
 
-Responses:
-200: Success
-FlightFinder API
-GET /api/FlightFinder
-Description: Find flights between two locations.
-Parameters:
-startLoc (string, query): Starting location.
-endLoc (string, query): Ending location.
-Responses:
-200: Success
-Reservation API
-GET /api/Reservation
-Description: Retrieve reservation details.
-Parameters:
-reservationId (string, query): Unique identifier for the reservation.
-Responses:
-200: Success
-POST /api/Reservation
-Description: Create a new reservation.
-Parameters: None
-Request Body:
-JSON
+#### GET /api/FlightFinder
+- **Description**: Find flights between two locations.
+- **Parameters**:
+  - `startLoc` (string, query): Starting location.
+  - `endLoc` (string, query): Ending location.
+- **Responses**:
+  - **200**: Success
 
-{
-  "reservationID": "string",
-  "travelID": "string",
-  "flightID": "string",
-  "isValid": 0
-}
-Responses:
-200: Success
-Travel API
-GET /api/Travel
-Description: Retrieve travel details.
-Parameters: None
-Responses:
-200: Success
-POST /api/Travel
-Description: Create a new travel entry.
-Parameters: None
-Request Body:
-JSON
+### Reservation API
 
-{
-  "travelID": "string",
-  "passengerFirstName": "string",
-  "passengerLastName": "string",
-  "distance": 0,
-  "duration": 0,
-  "price": 0,
-  "isValid": 0
-}
-Responses:
-200: Success
+#### GET /api/Reservation
+- **Description**: Retrieve reservation details.
+- **Parameters**:
+  - `reservationId` (string, query): Unique identifier for the reservation.
+- **Responses**:
+  - **200**: Success
+
+#### POST /api/Reservation
+- **Description**: Create a new reservation.
+- **Parameters**: None
+- **Request Body**:
+  ```json
+  {
+    "reservationID": "string",
+    "travelID": "string",
+    "flightID": "string",
+    "isValid": 0
+  }
+
