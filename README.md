@@ -28,15 +28,15 @@ Docker/production build URL: `http://localhost:8080`
 ### Flight API
 
 #### GET /api/Flight
-- Description: Retrieve a list of flights.
-- Parameters: None
-- Responses:
+- **Description**: Retrieve a list of flights.
+- **Parameters**: None
+- **Responses**:
   - 200: Success
 
 #### POST /api/Flight
-- Description: Create a new flight entry.
-- Parameters: None
-- Request Body:
+- **Description**: Create a new flight entry.
+- **Parameters**: None
+- **Request Body**:
   ```json
   {
     "flightID": "string",
