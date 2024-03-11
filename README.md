@@ -85,6 +85,8 @@ Docker/production build URL: `http://localhost:8080`
   - `endLoc` (string, query): Ending planet.
 - **Responses**:
   - **200**: Success
+    - FlightFinder?startLoc=Jupiter&endLoc=Earth
+    - returns sets of 3 connecting flights, Jupiter -> Mars and Mars -> Venus and Venus -> Earth
 
 ### Reservation API
 
