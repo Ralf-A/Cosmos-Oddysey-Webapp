@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HhAVulxSk+SdNTW++GAD29UKX73rJYVjuHLXnubSJnudRB1wPwIWuB3z7f/W/cMDWpMQwK15O8HpWVQ62CYBTw==",
+  "dgSpecHash": "8RHl3+0C3UqS40ihscb2uLsxez06bTszJNOLDKMVLF3aoKwL080cyT/5hzTqntc7ZCRcGq7b7vbkIf3R40ebig==",
   "success": true,
-  "projectFilePath": "E:\\Github\\Cosmos-Oddysey\\Cosmos-Oddysey\\cosmos-oddysey-backend\\cosmos-oddysey-backend.csproj",
+  "projectFilePath": "E:\\Github\\Cosmos-Oddysey-Webapp\\cosmos-oddysey-backend\\cosmos-oddysey-backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ralfa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ralfa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

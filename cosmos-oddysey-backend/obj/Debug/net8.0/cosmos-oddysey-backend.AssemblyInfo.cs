@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cosmos-oddysey-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9ede832cbac88af0b93ee08fcf1d5d6a2b284a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff91fc58b91803c1029abf8cf9bc5b2ecbdf6092")]
 [assembly: System.Reflection.AssemblyProductAttribute("cosmos-oddysey-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cosmos-oddysey-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
