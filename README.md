@@ -4,7 +4,7 @@
 
 Welcome to the repository of **Cosmos Odyssey**, the web application that brings you the best solar system travel deals. Navigate through various planets and find the most suitable routes at competitive prices. Make your reservation and embark on an interplanetary adventure!
 
-## Features
+# Features
 
 - **Travel Selection**: Choose your origin and destination from different planets within our solar system.
 - **Route Options**: View possible routes with prices provided by various transportation companies.
@@ -13,6 +13,17 @@ Welcome to the repository of **Cosmos Odyssey**, the web application that brings
 - **Reservations**: Securely make a reservation with your name on your preferred route.
 - **Pricelist History**: Access up to the last 15 active pricelists.
 
+# Achievements with this project
+- My first time using .NET and C#
+- First time using Docker to create an app with frontend, backend and database instances and doing DevOps practices
+- Getting more comfortable with React.js
+  
+# Undone work 
+- Tests for API - tested only using postman and built-in swagger and manual blackbox testing
+- Exception handling for API could be better 
+- No request validation besides on frontend
+- Overall structure could be a bit better
+  
 # Starting the Program
 
 ## Option 1: Using Docker (Recommended)
@@ -27,17 +38,6 @@ Welcome to the repository of **Cosmos Odyssey**, the web application that brings
 ### For Backend Application:
 - **Step 1**: Run the command `dotnet run`.
 - **Step 2**: Alternatively, press start on `Startup.cs` in your IDE.
-
-# Achievements with this project
-- My first time using .NET and C#
-- First time using Docker to create an app with frontend, backend and database instances and doing DevOps practices
-- Getting more comfortable with React.js
-  
-# Undone work 
-- Tests for API - tested only using postman and built-in swagger and manual blackbox testing
-- Exception handling for API could be better 
-- No request validation besides on frontend
-- Overall structure could be a bit better
 
 # API Reference and Documentation
 
