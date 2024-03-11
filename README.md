@@ -76,6 +76,7 @@ Docker/production build URL: `http://localhost:8080`
     "validUntil": "2024-03-11T00:03:17.174Z",
     "isValid": 0
   }
+### Flight Finder API
 
 #### GET /api/FlightFinder
 - **Description**: Find flights between two planets.
